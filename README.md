@@ -9,3 +9,5 @@
 
 * git clone is a great choice to get the items ==> https://www.youtube.com/watch?v=CKcqniGu3tA 
 * also https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository helper documents you can read.
+
+* DON'T FORGET THE npm install to install required packages first you need to download node.js and npm.
