@@ -48,7 +48,8 @@ export default function FilterPage() {
   const handleFilter = (e:any) =>{
     e.preventDefault()
     const filteredCountries = data.countries.filter((country:Country) => country.code.toLowerCase().startsWith(e.target.value.toLowerCase()))
-    setCountries(filteredCountries)
+    e.target.value === '' ? setCountries([]) : setCountries(filteredCountries)
+    
     return filteredCountries
   }
 
